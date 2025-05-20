@@ -1,0 +1,10 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+    <servlet>
+        <servlet-name>BankController</servlet-name>
+        <servlet-class>controller.BankController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BankController</servlet-name>
+        <url-pattern>/BankController</url-pattern>
+    </servlet-mapping>
+</web-app>
